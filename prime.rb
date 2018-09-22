@@ -3,8 +3,6 @@ def prime?(x)
 
   if (x < 2)
     return false
-  elsif (x == 2)
-    return true
   end
 
   for i in (2...x)
