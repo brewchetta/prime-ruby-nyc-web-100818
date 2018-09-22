@@ -2,7 +2,7 @@
 def prime?(x)
 
   if (x < 2)
-    return false
+    false
   end
 
   for i in (2...x)
